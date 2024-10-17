@@ -1,9 +1,6 @@
 import java.util.Scanner;
-
 public class ContaTerminal {
-
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
 		int numero;
 		String agencia;
@@ -12,6 +9,7 @@ public class ContaTerminal {
 
 		System.out.println("===== BANCO XYZ =====");
 		System.out.println();
+        
 		System.out.println("Por favor, digite o número da Conta: (Exemplo: 12345)");
 		numero = sc.nextInt();
 
