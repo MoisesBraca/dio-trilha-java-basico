@@ -12,10 +12,10 @@ public class ContaTerminal {
 
 		System.out.println("===== BANCO XYZ =====");
 		System.out.println();
-		System.out.println("Por favor, digite o número da Conta: (123456)");
+		System.out.println("Por favor, digite o número da Conta: (Exemplo: 12345)");
 		numero = sc.nextInt();
 
-		System.out.println("Agora digite o número da Agência: (1234)");
+		System.out.println("Agora digite o número da Agência: (Exemplo: 123-8)");
 		agencia = sc.next();
 
 		System.out.println("Me informe seu nome: ");
